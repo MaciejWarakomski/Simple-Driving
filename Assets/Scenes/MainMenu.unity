@@ -601,6 +601,7 @@ GameObject:
   - component: {fileID: 1866462966}
   - component: {fileID: 1866462968}
   - component: {fileID: 1866462967}
+  - component: {fileID: 1866462969}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -673,6 +674,23 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1866462969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866462965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &1904368550
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +816,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highScoreText: {fileID: 1854911453}
   energyText: {fileID: 1704175621}
+  playButton: {fileID: 1656310425}
   androidNotificationHandler: {fileID: 0}
   maxEnergy: 5
   energyRechargeDuration: 1
